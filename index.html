@@ -1,64 +1,221 @@
 <!DOCTYPE html>
-<html lang="TR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LoLRememberV2</title>
-    <center><h2 style = "color: rgb(68, 255, 10);font-size:40px ;">LoLRememberV2</h2></center>
-
-<link rel="stylesheet" href="./css/style.css"/>
-<style>
-    
-    body {
-        background-image: url("https://cdn.discordapp.com/attachments/935239676955078737/948325791559737344/Background.png");
-        padding: 5%;        
-        background-size: cover;
-   background-repeat: no-repeat;
-    }
- table {
-  position: absolute;
-  left: 600px;
-  width: 250px;
-
+<html>
+   
   
-</style>
+<!-------------------------------------------------------------------     Arkaplan    ------------------------------------------------------------------------------------------------->
+
+    <style>
+
+    body{ 
+        background-image: url("doc/Background.jpg");
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-color: #000007;
+        background-position: center;
+        background-size: cover;
+    }
+   
+    </style>
+    
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<head>
+
+
+     
+<!-------------------------------------------------------------------     Website İconu    -------------------------------------------------------------------------------------------->
+
+    <link rel="icon" type="image/x-icon" href="/doc/icon.ico">
+      
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+<!-------------------------------------------------------------------     Stiller    -------------------------------------------------------------------------------------------------->
+
+
+        <style>
+            
+
+/* Arka Plandaki Müq duran siyah gölge */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald&display=swap');@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+        #hero img {
+            height: 100vh;
+            width: 100%;
+            background-position: absolute;
+            z-index: 10;
+            object-fit: cover;
+        }
+          #hero .content {
+            background: rgba(0,0,0,0.7);
+            height: 100%;
+            width: 100%;
+            z-index: 20;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+          
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+        #center {
+            font-family: 'PT Sans Narrow', sans-serif;
+        }
+
+        #button-text {
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+
+        #block {
+            margin-left: 3px;
+            margin-right: 3px;
+        }
+   
+/* Renkli Yazı 1 */
+        .animated_rainbow_1 {
+            font-size: 42px;
+            font-family: Arial Black, Gadget, sans-serif;
+            background-image: -webkit-linear-gradient(left,#ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff);
+            -webkit-animation: animatedBackground_a 5s linear infinite alternate;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: #0000;
+            background-clip: text;
+        }
+
+        @keyframes animatedBackground_a {
+            0% { background-position: 0 0 }
+            100% { background-position: -500px 0 }
+}
+
+/* Renkli Update Yazısı "Last Update" */
+        .update_rainbow_2 {
+            font-size: 12px;
+            font-family: Arial Black, Gadget, sans-serif;
+            background-image: -webkit-linear-gradient(top right, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff);
+            -webkit-animation: animatedBackground_a 10s linear infinite alternate;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: #0000;
+            background-clip: text;
+        }
+
+/* Şarkı Oynatıcı Konumları */
+        #Sa {
+            position: fixed;
+            right:    850px;
+            bottom:   750px;              
+            background-color: transparent;
+            color: transparent;
+      
+            }
+
+/* Last Update Konum */
+        #Update {
+            position: fixed;
+            right:    5px ;
+            bottom:   0px; 
+                
+ }
+
+ /* Siyah Kutu */
+        .KaraKutu{
+            position: fixed;
+            right:    550px;
+            bottom:   0px;        
+			width: 900px;
+			height: 900px;
+			background-color: black;
+            
+		}
+ /* Video */
+        .Video{
+            position: fixed;
+            right:    730px;
+            bottom:   380px;        
+	
+        }
+ /* Versions: Metin tarafı */
+        #Metin {      
+            position: fixed;
+            right:    900px;
+            bottom:   150px;      
+        }
+/* li font boyutu */	
+        li {
+            font-size: 15px;
+        }
+
+/* br font boyutu */
+        br {
+            font-size: 15px;
+        }
+    </style>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+   
+
+<!---------------------------------------------------------------------------------     Site Başlığı       ---------------------------------------------------------------------------->
+
+        <title>My Life</title>
+        <script src="https://kit.fontawesome.com/6f3facabdd.js" crossorigin="anonymous"></script>       
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/6dbcb3829c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 </head>
 
-<body>
 
+<body>  
 
-  <center><p>LoLRememberV2 sizler için hazırlanmış bedava bir yazılımdır.</center>
-      <br />
-      <center><h1>Kurulum</h1></center>
+    
+<!----------------------------------------------------------------------------------------  Orta Alan  -------------------------------------------------------------------------------->
 
-  <br /><center><iframe src="https://streamable.com/e/slpy1l" width="560" height="315" frameborder="0" allowfullscreen></iframe></center>
- <br />
-  <center><a href=""><button>Download</button></a> <a href=""><button>VirusTotal</button></a></center>
-<br />
- 
-      
-
+<div class="KaraKutu">
+    
+<Div class="Video"><iframe src="https://streamable.com/e/slpy1l" width="560" height="315" frameborder="0" allowfullscreen></iframe></Div>
+<div id='Sa'> 
+    <h1 style="color: #00ff2a;">LoLRememberV2</h1> 
+ <div id="Metin" class="update_rainbow_2">
     <h3><center>Versions:</h3></center>
-     <table><br />
-      <td>
-        0.1 :
-        <li>Kronometre Eklendi.</li>
-        <li>Zeri Eklendi.</li>
-<br />
-        0.2 :
-        <li>X</li>
-        <li>X</li>
- <br />
-        Last Update: 1.03.2022         
-        <br>Last Update Version : Unknown<br>
-        <br> Made By Jung1330<br/>  
-       
-    </table><br /></td>
+    <table>
+     <td>
+       0.1 :
+       <li>Kronometre Eklendi.</li>
+       <li>Zeri Eklendi.</li>
+     </br>
+       0.2 :
+       <li>X</li>
+       <li>X</li>
+   </table></td>
+ </div>   
+</div>
 
-   
-  </table>
 
-</body></div>
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+ 
+
+<!----------------------------------------------------------------------------------------  Last Update ------------------------------------------------------------------------------->
+ 
+            <div id="Update" class="update_rainbow_2">
+                <div class="update_rainbow_2">Last Update : 08.04.2022</div>
+            </div>
+                   
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                               
+    </body>  
+
+
 </html>
